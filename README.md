@@ -1,0 +1,2 @@
+# Blender_classname_list_for_menu
+ アドオン用のメニュー追加先の候補の一覧
