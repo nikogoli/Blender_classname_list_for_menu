@@ -1,0 +1,846 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.3">
+    
+    
+      
+        <title>メニュー追加先の候補の一覧 (2.91)</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.1655a90d.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.7fa14f5b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kosugi+Maru:300,400,400i,700%7CUbuntu+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Kosugi Maru";--md-code-font-family:"Ubuntu Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="stylesheets/styles.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#291" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="." title="メニュー追加先の候補の一覧 (2.91)" class="md-header__button md-logo" aria-label="メニュー追加先の候補の一覧 (2.91)">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            メニュー追加先の候補の一覧 (2.91)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              メニュー追加先の候補の一覧 (2.91)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="クリア" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="タブ" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="." class="md-tabs__link md-tabs__link--active">
+      メニュー追加先の候補の一覧 (2.91)
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="details/" class="md-tabs__link">
+      Details
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="メニュー追加先の候補の一覧 (2.91)" class="md-nav__button md-logo" aria-label="メニュー追加先の候補の一覧 (2.91)">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    メニュー追加先の候補の一覧 (2.91)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          メニュー追加先の候補の一覧 (2.91)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        メニュー追加先の候補の一覧 (2.91)
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    名前を簡略化した分類テーブル
+  </a>
+  
+    <nav class="md-nav" aria-label="名前を簡略化した分類テーブル">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    ソース
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="details/" class="md-nav__link">
+        Details
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="291">メニュー追加先の候補の一覧 (2.91)</h1>
+<hr />
+<ul>
+<li>以下の表は、<code>dir(bpy.types)</code>の結果のうち、<code>PT, MT, OT, HT, UL</code>を含むものを示す</li>
+<li><a href="https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Advanced_Tutorials/Python_Scripting/Object,_Action,_Settings#Undocumented_Blender">Blender 3D: Noob to Proの表</a> をアップデートしたようなもの</li>
+<li>「Blender 2.91 の初期プロジェクト + アドオンを全て無効化」の状態で作成</li>
+<li>この表は、追加したメニューが実際に表示されることは保証しない</li>
+</ul>
+<h2 id="_1">名前を簡略化した分類テーブル</h2>
+<p><code>xxx 系</code>は、<code>xxx_yyy</code>や<code>xxx_zzz</code>など細かいサブタイプが存在することを示す。<br>
+サブタイプの詳細は、details タブにある。<br>
+(セル幅の影響で"UL"の列が隠れているので、表示させる場合は表内で横スクロールを行う)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>PT</th>
+<th>MT</th>
+<th>OT</th>
+<th>HT</th>
+<th>UL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DATA</td>
+<td>iksolver_itasc<br>pathanim<br>text_boxes<br>metaball 系<br>curve_texture_space<br>motion 系<br>skeleton<br>EEVEE 系<br>face_maps<br>remesh<br>active_spline<br>distance<br>context 系<br>falloff_curve<br>mball_texture_space<br>area<br>customdata<br>lattice<br>modifiers<br>spot<br>shader_fx<br>bone_groups<br>shape 系<br>uv_texture<br>hair_attributes<br>custom 系<br>pose_library<br>speaker<br>display<br>normals<br>lens<br>vertex 系<br>texture_space<br>gpencil 系<br>sculpt_vertex_colors<br>font 系<br>pointcloud_attributes<br>volume 系<br>light<br>cone<br>camera 系<br>empty 系<br>preview<br>geometry 系<br>lightprobe 系<br>paragraph 系</td>
+<td>bone_group_context_menu</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>VOLUME</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>grids</td>
+</tr>
+<tr>
+<td>BONE</td>
+<td>bDampTrackConstraint<br>bFollowPathConstraint<br>bTrackToConstraint<br>bChildOfConstraint<br>bLocLimitConstraint<br>bPivotConstraint<br>bObjectSolverConstraint<br>context_bone<br>bKinematicConstraint<br>constraints<br>relations<br>curved<br>bSizeLimitConstraint<br>bShrinkwrapConstraint<br>bDistLimitConstraint<br>bTransformCacheConstraint<br>bRotateLikeConstraint<br>transform<br>bArmatureConstraint 系<br>bFollowTrackConstraint<br>inverse_kinematics<br>bCameraSolverConstraint<br>bMinMaxConstraint<br>bTransformConstraint 系<br>custom_props<br>bLockTrackConstraint<br>bSizeLikeConstraint<br>display 系<br>bActionConstraint 系<br>bLocateLikeConstraint<br>deform<br>bPythonConstraint<br>bSameVolumeConstraint<br>bClampToConstraint<br>bRotLimitConstraint<br>bStretchToConstraint<br>bTransLikeConstraint<br>bSplineIKConstraint 系</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PROPERTIES</td>
+<td>navigation_bar</td>
+<td></td>
+<td></td>
+<td>header</td>
+<td></td>
+</tr>
+<tr>
+<td>RIGIDBODY</td>
+<td></td>
+<td></td>
+<td>object_settings_copy<br>bake_to_keyframes<br>connect</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PREFERENCES</td>
+<td></td>
+<td></td>
+<td>app_template_install<br>copy_prev<br>studiolight 系<br>keyitem 系<br>keyconfig 系<br>theme_install<br>addon 系<br>keymap_restore</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SCENE</td>
+<td>scene<br>physics<br>keyframing_settings<br>audio<br>custom_props<br>keying 系<br>rigid 系<br>unit</td>
+<td></td>
+<td>freestyle 系<br>gpencil 系</td>
+<td></td>
+<td>keying_set_paths</td>
+</tr>
+<tr>
+<td>VIEW3D</td>
+<td>collections<br>slots_projectpaint<br>view3d 系<br>object_type_visibility<br>paint 系<br>active 系<br>context_properties<br>grease_pencil<br>overlay 系<br>transform_orientations<br>stencil_projectpaint<br>shading 系<br>annotation_onion<br>snapping<br>gpencil 系<br>sculpt 系<br>tools 系<br>gizmo_display<br>proportional_edit<br>quad_view<br>mask</td>
+<td>editor_menus<br>metaball_add<br>curve_add<br>armature 系<br>object 系<br>paint 系<br>lightprobe_add<br>face 系<br>hook<br>view 系<br>pivot_pie<br>assign_material<br>angle_control<br>mirror<br>image_add<br>orientations_pie<br>transform 系<br>bone 系<br>particle 系<br>uv_map<br>surface_add<br>pose 系<br>shading 系<br>vertex 系<br>select 系<br>gpencil 系<br>mesh_add<br>sculpt 系<br>tools 系<br>volume_add<br>make 系<br>light_add<br>camera_add<br>add<br>weight_gpencil<br>proportional_editing_falloff_pie<br>brush 系<br>wpaint_vgroup_lock_pie<br>snap 系<br>edit 系<br>mask</td>
+<td>edit 系<br>transform_gizmo_set</td>
+<td>header<br>tool_header</td>
+<td></td>
+</tr>
+<tr>
+<td>CLOTH</td>
+<td>presets</td>
+<td></td>
+<td>preset_add</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SAFE_AREAS</td>
+<td>presets</td>
+<td></td>
+<td>preset_add</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NODE_EEVEE_MATERIAL</td>
+<td>settings</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>GPENCIL</td>
+<td></td>
+<td>layer 系<br>move_to_layer<br>material 系<br>cleanup<br>snap 系<br>gpencil 系</td>
+<td>tint_flip<br>mesh_bake</td>
+<td></td>
+<td>masks<br>matslots<br>layer<br>annotation_layer<br>vgroups</td>
+</tr>
+<tr>
+<td>WM</td>
+<td></td>
+<td>toolsystem_submenu<br>splash 系<br>operator_presets</td>
+<td>previews 系<br>tool 系<br>toolbar 系<br>sysinfo<br>batch_rename<br>drop_blend_file<br>operator 系<br>keyconfig_preset_add<br>owner 系<br>properties 系<br>url 系<br>doc 系<br>path_open<br>blend_strings_utf8_validate<br>context 系<br>interface_theme_preset_add</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>TOPBAR</td>
+<td>name<br>tool 系<br>annotation_layers<br>gpencil 系</td>
+<td>file 系<br>app 系<br>editor_menus<br>help<br>workspace_menu<br>render<br>templates_more<br>edit 系<br>window</td>
+<td></td>
+<td>upper_bar</td>
+<td></td>
+</tr>
+<tr>
+<td>COLLECTION</td>
+<td></td>
+<td>context_menu</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SCRIPT</td>
+<td></td>
+<td></td>
+<td>execute_preset</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>TIME</td>
+<td>keyframing_settings<br>playback<br>auto_keyframing</td>
+<td>marker<br>cache<br>editor_menus<br>view</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WORLD</td>
+<td>context_world<br>viewport_display<br>custom_props</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ANIM</td>
+<td></td>
+<td></td>
+<td>update_animated_transform_constraints<br>clear_useless_actions<br>keying_set_export</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WORKSPACE</td>
+<td>addons<br>main<br>custom_props</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CONSTRAINT</td>
+<td></td>
+<td></td>
+<td>remove_target<br>disable_keep_transform<br>add_target<br>normalize_target_weights</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NODE_WORLD</td>
+<td>viewport_display</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>USERPREF</td>
+<td>file 系<br>ndof_settings<br>save_preferences<br>saveload 系<br>addons<br>input 系<br>animation 系<br>experimental 系<br>studiolight 系<br>theme 系<br>viewport 系<br>navigation 系<br>keymap<br>edit 系<br>system 系<br>interface 系</td>
+<td>view<br>editor_menus<br>save_load<br>keyconfigs<br>interface_theme_presets</td>
+<td></td>
+<td>header</td>
+<td></td>
+</tr>
+<tr>
+<td>VIEWLAYER</td>
+<td>freestyle 系<br>layer<br>eevee 系</td>
+<td></td>
+<td></td>
+<td></td>
+<td>linesets</td>
+</tr>
+<tr>
+<td>PAINT</td>
+<td></td>
+<td></td>
+<td>vertex_color_dirt</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NODE</td>
+<td>quality<br>node_color_presets<br>material_slots<br>backdrop<br>annotation<br>active 系<br>texture_mapping<br>tools_active</td>
+<td>view<br>category 系<br>editor_menus<br>node 系<br>add<br>select<br>context_menu</td>
+<td>node_color_preset_add<br>tree_path_parent<br>collapse_hide_unused_toggle<br>add 系</td>
+<td>header</td>
+<td>interface_sockets</td>
+</tr>
+<tr>
+<td>FILEBROWSER</td>
+<td>directory_path<br>bookmarks 系<br>filter<br>display<br>advanced_filter</td>
+<td>view<br>editor_menus<br>bookmarks_context_menu<br>select<br>context_menu</td>
+<td></td>
+<td>header</td>
+<td>dir</td>
+</tr>
+<tr>
+<td>CAMERA</td>
+<td>presets</td>
+<td></td>
+<td>preset_add</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>STATUSBAR</td>
+<td></td>
+<td></td>
+<td></td>
+<td>header</td>
+<td></td>
+</tr>
+<tr>
+<td>INFO</td>
+<td></td>
+<td>view<br>editor_menus<br>area<br>context_menu<br>info</td>
+<td></td>
+<td>header</td>
+<td></td>
+</tr>
+<tr>
+<td>EEVEE_WORLD</td>
+<td>mist<br>surface<br>volume</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>POINTCLOUD</td>
+<td></td>
+<td>add_attribute</td>
+<td></td>
+<td></td>
+<td>attributes</td>
+</tr>
+<tr>
+<td>SIMULATION</td>
+<td></td>
+<td></td>
+<td>new</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EEVEE_MATERIAL</td>
+<td>settings<br>surface<br>viewport_settings<br>context_material<br>volume</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>MASK</td>
+<td></td>
+<td>animation<br>add<br>visibility<br>select<br>mask<br>transform</td>
+<td></td>
+<td></td>
+<td>layers</td>
+</tr>
+<tr>
+<td>SEQUENCER</td>
+<td>view 系<br>effect 系<br>frame_overlay<br>time<br>scene<br>strip 系<br>custom_props<br>modifiers<br>mask<br>preview<br>cache_settings<br>proxy_settings<br>annotation 系<br>source<br>active_tool<br>adjust 系<br>tools_active</td>
+<td>change<br>view 系<br>editor_menus<br>strip 系<br>add 系<br>marker<br>proxy<br>select 系<br>navigation<br>preview_zoom<br>range<br>context_menu</td>
+<td>crossfade_sounds<br>fades 系<br>split_multicam<br>deinterlace_selected_movies</td>
+<td>header<br>tool_header</td>
+<td></td>
+</tr>
+<tr>
+<td>MESH</td>
+<td></td>
+<td>vertex_group_context_menu<br>shape_key_context_menu</td>
+<td>primitive_torus_add<br>select 系<br>faces_mirror_uv</td>
+<td></td>
+<td>shape_keys<br>vcols<br>fmaps<br>uvmaps<br>vgroups</td>
+</tr>
+<tr>
+<td>FLUID</td>
+<td>presets</td>
+<td></td>
+<td>preset_add</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>UV</td>
+<td></td>
+<td></td>
+<td>lightmap_pack<br>follow_active_quads</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IMAGE</td>
+<td>view 系<br>uv 系<br>scope_sample<br>render_slots<br>proportional_edit<br>image_properties<br>annotation<br>overlay 系<br>paint 系<br>snapping<br>udim 系<br>active 系<br>mask 系<br>sample_line<br>tools 系</td>
+<td>view 系<br>editor_menus<br>pivot_pie<br>uvs 系<br>image 系<br>select 系<br>mask_context_menu</td>
+<td>external_edit<br>project 系</td>
+<td>header<br>tool_header</td>
+<td>render_slots<br>udim_tiles</td>
+</tr>
+<tr>
+<td>OUTLINER</td>
+<td>filter</td>
+<td>editor_menus<br>collection 系<br>object<br>edit_datablocks<br>context 系</td>
+<td></td>
+<td>header</td>
+<td></td>
+</tr>
+<tr>
+<td>TEXT</td>
+<td>properties<br>find</td>
+<td>view 系<br>text<br>editor_menus<br>format<br>templates 系<br>edit 系<br>select<br>context_menu</td>
+<td></td>
+<td>footer<br>header</td>
+<td></td>
+</tr>
+<tr>
+<td>GRAPH</td>
+<td>filters</td>
+<td>view<br>editor_menus<br>pivot_pie<br>key 系<br>channel 系<br>marker<br>delete<br>snap_pie<br>select<br>context_menu</td>
+<td></td>
+<td>header</td>
+<td></td>
+</tr>
+<tr>
+<td>NODE_DATA</td>
+<td>EEVEE_light<br>light</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RENDER</td>
+<td>ffmpeg_presets<br>frame_remapping<br>stereoscopy<br>simplify 系<br>presets<br>color 系<br>freestyle<br>output 系<br>post_processing<br>dimensions<br>eevee 系<br>stamp 系<br>encoding 系<br>context<br>gpencil<br>opengl 系</td>
+<td>framerate_presets<br>lineset_context_menu</td>
+<td>preset_add<br>play_rendered_anim</td>
+<td></td>
+<td>renderviews</td>
+</tr>
+<tr>
+<td>MATERIAL</td>
+<td>custom_props<br>viewport<br>freestyle_line<br>preview<br>gpencil 系</td>
+<td>context_menu</td>
+<td></td>
+<td></td>
+<td>matslots</td>
+</tr>
+<tr>
+<td>CONSOLE</td>
+<td></td>
+<td>view<br>editor_menus<br>language<br>context_menu<br>console</td>
+<td>execute<br>autocomplete<br>copy_as_script<br>language<br>banner</td>
+<td>header</td>
+<td></td>
+</tr>
+<tr>
+<td>NLA</td>
+<td>filters</td>
+<td>view<br>editor_menus<br>channel_context_menu<br>add<br>marker<br>snap_pie<br>edit 系<br>select<br>context_menu</td>
+<td>bake</td>
+<td>header</td>
+<td></td>
+</tr>
+<tr>
+<td>PARTICLE</td>
+<td>force 系<br>boidbrain<br>physics 系<br>hair 系<br>custom_props<br>vertexgroups<br>render 系<br>cache<br>emission 系<br>children 系<br>textures<br>velocity<br>rotation 系<br>field_weights<br>context_particles<br>draw</td>
+<td>context_menu</td>
+<td>hair_dynamics_preset_add</td>
+<td></td>
+<td>particle_systems</td>
+</tr>
+<tr>
+<td>CLIP</td>
+<td>footage<br>stabilization<br>camera_presets<br>track 系<br>clip_display<br>tracking 系<br>plane_track<br>marker 系<br>proxy<br>annotation<br>display<br>active 系<br>objects<br>mask 系<br>tools 系</td>
+<td>view 系<br>pivot_pie<br>track 系<br>tracking 系<br>clip<br>stabilize 系<br>marker_pie<br>proxy<br>reconstruction 系<br>solving_pie<br>masking_editor_menus<br>select 系</td>
+<td>camera_preset_add<br>bundles_to_mesh<br>track 系<br>tracking_settings_preset_add<br>set 系<br>constraint_to_fcurve<br>filter_tracks<br>delete_proxy<br>setup_tracking_scene</td>
+<td>header</td>
+<td>tracking_objects</td>
+</tr>
+<tr>
+<td>DOPESHEET</td>
+<td>filters<br>gpencil 系</td>
+<td>view<br>editor_menus<br>key 系<br>channel 系<br>marker<br>delete<br>snap_pie<br>select<br>context_menu<br>gpencil 系</td>
+<td></td>
+<td>header</td>
+<td></td>
+</tr>
+<tr>
+<td>UI</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>list</td>
+</tr>
+<tr>
+<td>NODE_MATERIAL</td>
+<td>viewport</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>TEXTURE</td>
+<td>voronoi 系<br>clouds<br>node<br>colors 系<br>custom_props<br>marble<br>stucci<br>preview<br>image 系<br>mapping<br>musgrave<br>magic<br>blend<br>distortednoise<br>influence<br>context<br>wood</td>
+<td>context_menu</td>
+<td></td>
+<td></td>
+<td>texpaintslots<br>texslots</td>
+</tr>
+<tr>
+<td>HAIR</td>
+<td></td>
+<td>add_attribute</td>
+<td></td>
+<td></td>
+<td>attributes</td>
+</tr>
+<tr>
+<td>OBJECT</td>
+<td>bDampTrackConstraint<br>bFollowPathConstraint<br>instancing 系<br>collections<br>bTrackToConstraint<br>bChildOfConstraint<br>bLocLimitConstraint<br>delta_transform<br>bPivotConstraint<br>motion 系<br>bObjectSolverConstraint<br>context_object<br>bKinematicConstraint<br>constraints<br>relations<br>bSizeLimitConstraint<br>bShrinkwrapConstraint<br>bDistLimitConstraint<br>bTransformCacheConstraint<br>bRotateLikeConstraint<br>transform<br>bArmatureConstraint 系<br>bFollowTrackConstraint<br>bCameraSolverConstraint<br>bMinMaxConstraint<br>bTransformConstraint 系<br>custom_props<br>bLockTrackConstraint<br>bSizeLikeConstraint<br>display<br>bActionConstraint 系<br>bLocateLikeConstraint<br>bPythonConstraint<br>bSameVolumeConstraint<br>bClampToConstraint<br>bRotLimitConstraint<br>bStretchToConstraint<br>visibility<br>bTransLikeConstraint</td>
+<td></td>
+<td>make_dupli_face<br>load 系<br>randomize_transform<br>shape_key_transfer<br>hide_render_clear_all<br>transforms_to_deltas<br>subdivision_set<br>instance_offset_from_cursor<br>assign_property_defaults<br>quick 系<br>anim_transforms_to_deltas<br>isolate_type_render<br>join_uvs<br>align<br>select 系</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PHYSICS</td>
+<td>collections<br>cloth 系<br>adaptive_domain<br>cache<br>fire<br>dynamic 系<br>settings<br>export<br>viewport 系<br>softbody 系<br>smoke 系<br>dp 系<br>flow 系<br>liquid<br>particles<br>rigid 系<br>fluid<br>field 系<br>mesh<br>noise<br>borders<br>diffusion<br>collision 系<br>guide<br>add</td>
+<td></td>
+<td></td>
+<td></td>
+<td>dynapaint_surfaces</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_2">ソース</h3>
+<p>この表は、<a href="https://gist.githubusercontent.com/nikogoli/d6a06036f24294f426a289650e417c47/raw/973c2783218425be0c1af9795a03a71ec67ea155/details.json">このjsonファイル</a>を元に作成している</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="フッター">
+      
+      
+        <a href="details/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                次
+              </span>
+              Details
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "toc.integrate"], "translations": {"clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\u3000\u3001\u3002\uff0c\uff0e]+", "search.placeholder": "\u691c\u7d22", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044"}, "search": "assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.ca5457b8.min.js"></script>
+      
+    
+  </body>
+</html>

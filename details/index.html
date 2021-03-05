@@ -1,0 +1,1120 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.3">
+    
+    
+      
+        <title>Details - メニュー追加先の候補の一覧 (2.91)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1655a90d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kosugi+Maru:300,400,400i,700%7CUbuntu+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Kosugi Maru";--md-code-font-family:"Ubuntu Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/styles.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#data_pt_" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href=".." title="メニュー追加先の候補の一覧 (2.91)" class="md-header__button md-logo" aria-label="メニュー追加先の候補の一覧 (2.91)">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            メニュー追加先の候補の一覧 (2.91)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Details
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="クリア" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="タブ" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      メニュー追加先の候補の一覧 (2.91)
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Details
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="メニュー追加先の候補の一覧 (2.91)" class="md-nav__button md-logo" aria-label="メニュー追加先の候補の一覧 (2.91)">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    メニュー追加先の候補の一覧 (2.91)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        メニュー追加先の候補の一覧 (2.91)
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Details
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Details
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#data_pt_" class="md-nav__link">
+    DATA_PT_
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bone_pt" class="md-nav__link">
+    BONE_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preferences_ot" class="md-nav__link">
+    PREFERENCES_OT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scene_pt" class="md-nav__link">
+    SCENE_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scene_ot" class="md-nav__link">
+    SCENE_OT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view3d_pt" class="md-nav__link">
+    VIEW3D_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view3d_mt" class="md-nav__link">
+    VIEW3D_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view3d_ot" class="md-nav__link">
+    VIEW3D_OT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpencil_mt" class="md-nav__link">
+    GPENCIL_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wm_mt" class="md-nav__link">
+    WM_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wm_ot" class="md-nav__link">
+    WM_OT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topbar_pt" class="md-nav__link">
+    TOPBAR_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topbar_mt" class="md-nav__link">
+    TOPBAR_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#userpref_pt" class="md-nav__link">
+    USERPREF_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewlayer_pt" class="md-nav__link">
+    VIEWLAYER_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#node_pt" class="md-nav__link">
+    NODE_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#node_mt" class="md-nav__link">
+    NODE_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#node_ot" class="md-nav__link">
+    NODE_OT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filebrowser_pt" class="md-nav__link">
+    FILEBROWSER_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequencer_pt" class="md-nav__link">
+    SEQUENCER_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequencer_mt" class="md-nav__link">
+    SEQUENCER_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequencer_ot" class="md-nav__link">
+    SEQUENCER_OT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mesh_ot_select" class="md-nav__link">
+    MESH_OT_select
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#image_pt" class="md-nav__link">
+    IMAGE_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#image_mt" class="md-nav__link">
+    IMAGE_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#image_ot" class="md-nav__link">
+    IMAGE_OT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#outliner_mt" class="md-nav__link">
+    OUTLINER_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#text_mt" class="md-nav__link">
+    TEXT_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#graph_mt" class="md-nav__link">
+    GRAPH_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#render_pt" class="md-nav__link">
+    RENDER_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material_pt" class="md-nav__link">
+    MATERIAL_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nla_mt" class="md-nav__link">
+    NLA_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#particle_pt" class="md-nav__link">
+    PARTICLE_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clip_pt" class="md-nav__link">
+    CLIP_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clip_mt" class="md-nav__link">
+    CLIP_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clip_ot" class="md-nav__link">
+    CLIP_OT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dopesheet_pt" class="md-nav__link">
+    DOPESHEET_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dopesheet_mt" class="md-nav__link">
+    DOPESHEET_MT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#texture_pt" class="md-nav__link">
+    TEXTURE_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object_pt" class="md-nav__link">
+    OBJECT_PT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object_ot" class="md-nav__link">
+    OBJECT_OT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#physics_pt" class="md-nav__link">
+    PHYSICS_PT
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Details</h1>
+                
+                <hr />
+<h3 id="data_pt_">DATA_PT_</h3>
+<hr />
+<details class="example"><summary>DATA_PT_metaball 系</summary><p>metaball, metaball_element</p>
+</details>
+<details class="example"><summary>DATA_PT_motion 系</summary><p>motion_paths, motion_paths_display</p>
+</details>
+<details class="example"><summary>DATA_PT_EEVEE 系</summary><p>EEVEE_light, EEVEE_light_distance, EEVEE_shadow, EEVEE_shadow_cascaded_shadow_map, EEVEE_shadow_contact</p>
+</details>
+<details class="example"><summary>DATA_PT_context 系</summary><p>context_arm, context_camera, context_curve, context_gpencil, context_hair, context_lattice, context_light, context_lightprobe, context_mesh, context_metaball, context_pointcloud, context_speaker, context_volume</p>
+</details>
+<details class="example"><summary>DATA_PT_shape 系</summary><p>shape_curve, shape_keys</p>
+</details>
+<details class="example"><summary>DATA_PT_custom 系</summary><p>custom_props_arm, custom_props_camera, custom_props_curve, custom_props_gpencil, custom_props_hair, custom_props_lattice, custom_props_light, custom_props_mesh, custom_props_metaball, custom_props_pointcloud, custom_props_speaker, custom_props_volume</p>
+</details>
+<details class="example"><summary>DATA_PT_vertex 系</summary><p>vertex_colors, vertex_groups</p>
+</details>
+<details class="example"><summary>DATA_PT_gpencil 系</summary><p>gpencil_canvas, gpencil_display, gpencil_layer_adjustments, gpencil_layer_display, gpencil_layer_masks, gpencil_layer_relations, gpencil_layers, gpencil_modifiers, gpencil_onion_skinning, gpencil_onion_skinning_custom_colors, gpencil_onion_skinning_display, gpencil_strokes, gpencil_vertex_groups</p>
+</details>
+<details class="example"><summary>DATA_PT_font 系</summary><p>font, font_transform</p>
+</details>
+<details class="example"><summary>DATA_PT_volume 系</summary><p>volume_file, volume_grids, volume_render, volume_viewport_display, volume_viewport_display_slicing</p>
+</details>
+<details class="example"><summary>DATA_PT_camera 系</summary><p>camera, camera_background_image, camera_display, camera_display_composition_guides, camera_dof, camera_dof_aperture, camera_safe_areas, camera_safe_areas_center_cut, camera_stereoscopy</p>
+</details>
+<details class="example"><summary>DATA_PT_empty 系</summary><p>empty, empty_image</p>
+</details>
+<details class="example"><summary>DATA_PT_geometry 系</summary><p>geometry_curve, geometry_curve_bevel, geometry_curve_start_end</p>
+</details>
+<details class="example"><summary>DATA_PT_lightprobe 系</summary><p>lightprobe, lightprobe_display, lightprobe_parallax, lightprobe_visibility</p>
+</details>
+<details class="example"><summary>DATA_PT_paragraph 系</summary><p>paragraph, paragraph_alignment, paragraph_spacing</p>
+</details>
+<hr />
+<h3 id="bone_pt">BONE_PT</h3>
+<hr />
+<details class="example"><summary>BONE_PT_bArmatureConstraint 系</summary><p>bArmatureConstraint, bArmatureConstraint_bones</p>
+</details>
+<details class="example"><summary>BONE_PT_bTransformConstraint 系</summary><p>bTransformConstraint, bTransformConstraint_from, bTransformConstraint_to</p>
+</details>
+<details class="example"><summary>BONE_PT_display 系</summary><p>display, display_custom_shape</p>
+</details>
+<details class="example"><summary>BONE_PT_bActionConstraint 系</summary><p>bActionConstraint, bActionConstraint_action, bActionConstraint_target</p>
+</details>
+<details class="example"><summary>BONE_PT_bSplineIKConstraint 系</summary><p>bSplineIKConstraint, bSplineIKConstraint_chain_scaling, bSplineIKConstraint_fitting</p>
+</details>
+<hr />
+<h3 id="preferences_ot">PREFERENCES_OT</h3>
+<hr />
+<details class="example"><summary>PREFERENCES_OT_studiolight 系</summary><p>studiolight_copy_settings, studiolight_install, studiolight_new, studiolight_show, studiolight_uninstall</p>
+</details>
+<details class="example"><summary>PREFERENCES_OT_keyitem 系</summary><p>keyitem_add, keyitem_remove, keyitem_restore</p>
+</details>
+<details class="example"><summary>PREFERENCES_OT_keyconfig 系</summary><p>keyconfig_activate, keyconfig_export, keyconfig_import, keyconfig_remove, keyconfig_test</p>
+</details>
+<details class="example"><summary>PREFERENCES_OT_addon 系</summary><p>addon_disable, addon_enable, addon_expand, addon_install, addon_refresh, addon_remove, addon_show</p>
+</details>
+<hr />
+<h3 id="scene_pt">SCENE_PT</h3>
+<hr />
+<details class="example"><summary>SCENE_PT_keying 系</summary><p>keying_set_paths, keying_sets</p>
+</details>
+<details class="example"><summary>SCENE_PT_rigid 系</summary><p>rigid_body_cache, rigid_body_field_weights, rigid_body_world, rigid_body_world_settings</p>
+</details>
+<hr />
+<h3 id="scene_ot">SCENE_OT</h3>
+<hr />
+<details class="example"><summary>SCENE_OT_freestyle 系</summary><p>freestyle_add_edge_marks_to_keying_set, freestyle_add_face_marks_to_keying_set, freestyle_fill_range_by_selection, freestyle_module_open</p>
+</details>
+<details class="example"><summary>SCENE_OT_gpencil 系</summary><p>gpencil_brush_preset_add, gpencil_material_preset_add</p>
+</details>
+<hr />
+<h3 id="view3d_pt">VIEW3D_PT</h3>
+<hr />
+<details class="example"><summary>VIEW3D_PT_view3d 系</summary><p>view3d_cursor, view3d_lock, view3d_properties, view3d_stereo</p>
+</details>
+<details class="example"><summary>VIEW3D_PT_paint 系</summary><p>paint_texture_context_menu, paint_vertex_context_menu, paint_weight_context_menu</p>
+</details>
+<details class="example"><summary>VIEW3D_PT_active 系</summary><p>active_tool, active_tool_duplicate</p>
+</details>
+<details class="example"><summary>VIEW3D_PT_overlay 系</summary><p>overlay, overlay_edit_curve, overlay_edit_mesh, overlay_edit_mesh_freestyle, overlay_edit_mesh_measurement, overlay_edit_mesh_normals, overlay_edit_mesh_shading, overlay_geometry, overlay_gpencil_options, overlay_guides, overlay_motion_tracking, overlay_object, overlay_pose, overlay_sculpt, overlay_texture_paint, overlay_vertex_paint, overlay_weight_paint</p>
+</details>
+<details class="example"><summary>VIEW3D_PT_shading 系</summary><p>shading, shading_color, shading_lighting, shading_options, shading_options_shadow, shading_options_ssao, shading_render_pass</p>
+</details>
+<details class="example"><summary>VIEW3D_PT_gpencil 系</summary><p>gpencil_brush_presets, gpencil_draw_context_menu, gpencil_guide, gpencil_lock, gpencil_multi_frame, gpencil_origin, gpencil_sculpt_context_menu, gpencil_vertex_context_menu, gpencil_weight_context_menu</p>
+</details>
+<details class="example"><summary>VIEW3D_PT_sculpt 系</summary><p>sculpt_context_menu, sculpt_dyntopo, sculpt_options, sculpt_options_gravity, sculpt_symmetry, sculpt_symmetry_for_topbar, sculpt_voxel_remesh</p>
+</details>
+<details class="example"><summary>VIEW3D_PT_tools 系</summary><p>tools_active, tools_armatureedit_options, tools_brush_clone, tools_brush_color, tools_brush_display, tools_brush_falloff, tools_brush_falloff_frontface, tools_brush_falloff_normal, tools_brush_select, tools_brush_settings, tools_brush_settings_advanced, tools_brush_stroke, tools_brush_stroke_smooth_stroke, tools_brush_swatches, tools_brush_texture, tools_grease_pencil_brush_advanced, tools_grease_pencil_brush_mix_palette, tools_grease_pencil_brush_mixcolor, tools_grease_pencil_brush_paint_falloff, tools_grease_pencil_brush_post_processing, tools_grease_pencil_brush_random, tools_grease_pencil_brush_sculpt_falloff, tools_grease_pencil_brush_select, tools_grease_pencil_brush_settings, tools_grease_pencil_brush_stabilizer, tools_grease_pencil_brush_stroke, tools_grease_pencil_brush_vertex_color, tools_grease_pencil_brush_vertex_falloff, tools_grease_pencil_brush_vertex_palette, tools_grease_pencil_brush_weight_falloff, tools_grease_pencil_interpolate, tools_grease_pencil_paint_appearance, tools_grease_pencil_sculpt_appearance, tools_grease_pencil_sculpt_options, tools_grease_pencil_sculpt_select, tools_grease_pencil_sculpt_settings, tools_grease_pencil_vertex_appearance, tools_grease_pencil_vertex_paint_select, tools_grease_pencil_vertex_paint_settings, tools_grease_pencil_weight_appearance, tools_grease_pencil_weight_paint_select, tools_grease_pencil_weight_paint_settings, tools_imagepaint_options, tools_imagepaint_options_cavity, tools_imagepaint_options_external, tools_imagepaint_symmetry, tools_mask_texture, tools_meshedit_options, tools_meshedit_options_automerge, tools_object_options, tools_object_options_transform, tools_particlemode, tools_particlemode_options, tools_particlemode_options_display, tools_particlemode_options_shapecut, tools_posemode_options, tools_vertexpaint_options, tools_vertexpaint_symmetry, tools_vertexpaint_symmetry_for_topbar, tools_weightpaint_options, tools_weightpaint_symmetry, tools_weightpaint_symmetry_for_topbar</p>
+</details>
+<hr />
+<h3 id="view3d_mt">VIEW3D_MT</h3>
+<hr />
+<details class="example"><summary>VIEW3D_MT_armature 系</summary><p>armature_add, armature_context_menu</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_object 系</summary><p>object, object_animation, object_apply, object_cleanup, object_clear, object_collection, object_constraints, object_context_menu, object_mode_pie, object_parent, object_quick_effects, object_relations, object_rigid_body, object_shading, object_showhide, object_track</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_paint 系</summary><p>paint_gpencil, paint_vertex, paint_weight, paint_weight_lock</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_face 系</summary><p>face_sets, face_sets_init</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_view 系</summary><p>view, view_align, view_align_selected, view_cameras, view_local, view_navigation, view_pie, view_regions, view_viewpoint</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_transform 系</summary><p>transform, transform_armature, transform_gizmo_pie, transform_object</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_bone 系</summary><p>bone_options_disable, bone_options_enable, bone_options_toggle</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_particle 系</summary><p>particle, particle_context_menu, particle_showhide</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_pose 系</summary><p>pose, pose_apply, pose_constraints, pose_context_menu, pose_group, pose_ik, pose_library, pose_motion, pose_names, pose_propagate, pose_showhide, pose_slide, pose_transform</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_shading 系</summary><p>shading_ex_pie, shading_pie</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_vertex 系</summary><p>vertex_gpencil, vertex_group</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_select 系</summary><p>select_edit_armature, select_edit_curve, select_edit_lattice, select_edit_mesh, select_edit_metaball, select_edit_surface, select_edit_text, select_gpencil, select_object, select_object_more_less, select_paint_mask, select_paint_mask_vertex, select_particle, select_pose, select_pose_more_less</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_gpencil 系</summary><p>gpencil_animation, gpencil_autoweights, gpencil_copy_layer, gpencil_edit_context_menu, gpencil_simplify, gpencil_vertex_group</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_sculpt 系</summary><p>sculpt, sculpt_face_sets_edit_pie, sculpt_mask_edit_pie, sculpt_set_pivot</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_tools 系</summary><p>tools_projectpaint_clone, tools_projectpaint_stencil, tools_projectpaint_uvlayer</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_make 系</summary><p>make_links, make_single_user</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_brush 系</summary><p>brush_context_menu, brush_context_menu_paint_modes, brush_gpencil_context_menu, brush_paint_modes</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_snap 系</summary><p>snap, snap_pie</p>
+</details>
+<details class="example"><summary>VIEW3D_MT_edit 系</summary><p>edit_armature, edit_armature_delete, edit_armature_names, edit_armature_parent, edit_armature_roll, edit_curve, edit_curve_clean, edit_curve_context_menu, edit_curve_ctrlpoints, edit_curve_delete, edit_curve_segments, edit_curve_showhide, edit_font, edit_font_chars, edit_font_context_menu, edit_font_delete, edit_font_kerning, edit_gpencil, edit_gpencil_delete, edit_gpencil_interpolate, edit_gpencil_point, edit_gpencil_showhide, edit_gpencil_stroke, edit_gpencil_transform, edit_lattice, edit_lattice_context_menu, edit_mesh, edit_mesh_clean, edit_mesh_context_menu, edit_mesh_delete, edit_mesh_edges, edit_mesh_edges_data, edit_mesh_extrude, edit_mesh_faces, edit_mesh_faces_data, edit_mesh_merge, edit_mesh_normals, edit_mesh_normals_average, edit_mesh_normals_select_strength, edit_mesh_normals_set_strength, edit_mesh_select_by_trait, edit_mesh_select_linked, edit_mesh_select_loops, edit_mesh_select_mode, edit_mesh_select_more_less, edit_mesh_select_similar, edit_mesh_shading, edit_mesh_showhide, edit_mesh_split, edit_mesh_vertices, edit_mesh_weights, edit_meta, edit_meta_showhide, edit_metaball_context_menu, edit_surface</p>
+</details>
+<hr />
+<h3 id="view3d_ot">VIEW3D_OT</h3>
+<hr />
+<details class="example"><summary>VIEW3D_OT_edit 系</summary><p>edit_mesh_extrude_individual_move, edit_mesh_extrude_manifold_normal, edit_mesh_extrude_move_normal, edit_mesh_extrude_move_shrink_fatten</p>
+</details>
+<hr />
+<h3 id="gpencil_mt">GPENCIL_MT</h3>
+<hr />
+<details class="example"><summary>GPENCIL_MT_layer 系</summary><p>layer_active, layer_context_menu, layer_mask_menu</p>
+</details>
+<details class="example"><summary>GPENCIL_MT_material 系</summary><p>material_active, material_context_menu</p>
+</details>
+<details class="example"><summary>GPENCIL_MT_snap 系</summary><p>snap, snap_pie</p>
+</details>
+<details class="example"><summary>GPENCIL_MT_gpencil 系</summary><p>gpencil_draw_delete, gpencil_vertex_group</p>
+</details>
+<hr />
+<h3 id="wm_mt">WM_MT</h3>
+<hr />
+<details class="example"><summary>WM_MT_splash 系</summary><p>splash, splash_about</p>
+</details>
+<hr />
+<h3 id="wm_ot">WM_OT</h3>
+<hr />
+<details class="example"><summary>WM_OT_previews 系</summary><p>previews_batch_clear, previews_batch_generate</p>
+</details>
+<details class="example"><summary>WM_OT_tool 系</summary><p>tool_set_by_id, tool_set_by_index</p>
+</details>
+<details class="example"><summary>WM_OT_toolbar 系</summary><p>toolbar, toolbar_fallback_pie, toolbar_prompt</p>
+</details>
+<details class="example"><summary>WM_OT_operator 系</summary><p>operator_cheat_sheet, operator_pie_enum, operator_preset_add</p>
+</details>
+<details class="example"><summary>WM_OT_owner 系</summary><p>owner_disable, owner_enable</p>
+</details>
+<details class="example"><summary>WM_OT_properties 系</summary><p>properties_add, properties_context_change, properties_edit, properties_remove</p>
+</details>
+<details class="example"><summary>WM_OT_url 系</summary><p>url_open, url_open_preset</p>
+</details>
+<details class="example"><summary>WM_OT_doc 系</summary><p>doc_view, doc_view_manual</p>
+</details>
+<details class="example"><summary>WM_OT_context 系</summary><p>context_collection_boolean_set, context_cycle_array, context_cycle_enum, context_cycle_int, context_menu_enum, context_modal_mouse, context_pie_enum, context_scale_float, context_scale_int, context_set_boolean, context_set_enum, context_set_float, context_set_id, context_set_int, context_set_string, context_set_value, context_toggle, context_toggle_enum</p>
+</details>
+<hr />
+<h3 id="topbar_pt">TOPBAR_PT</h3>
+<hr />
+<details class="example"><summary>TOPBAR_PT_tool 系</summary><p>tool_fallback, tool_settings_extra</p>
+</details>
+<details class="example"><summary>TOPBAR_PT_gpencil 系</summary><p>gpencil_layers, gpencil_materials, gpencil_primitive, gpencil_vertexcolor</p>
+</details>
+<details class="example"><summary>TOPBAR_MT_file 系</summary><p>file, file_cleanup, file_context_menu, file_defaults, file_export, file_external_data, file_import, file_new, file_previews, file_recover</p>
+</details>
+<hr />
+<h3 id="topbar_mt">TOPBAR_MT</h3>
+<hr />
+<details class="example"><summary>TOPBAR_MT_app 系</summary><p>app, app_system</p>
+</details>
+<details class="example"><summary>TOPBAR_MT_edit 系</summary><p>edit, edit_armature_add, edit_curve_add</p>
+</details>
+<hr />
+<h3 id="userpref_pt">USERPREF_PT</h3>
+<hr />
+<details class="example"><summary>USERPREF_PT_file 系</summary><p>file_paths_applications, file_paths_data, file_paths_development, file_paths_render</p>
+</details>
+<details class="example"><summary>USERPREF_PT_saveload 系</summary><p>saveload_autorun, saveload_blend, saveload_blend_autosave, saveload_file_browser</p>
+</details>
+<details class="example"><summary>USERPREF_PT_input 系</summary><p>input_keyboard, input_mouse, input_ndof, input_tablet</p>
+</details>
+<details class="example"><summary>USERPREF_PT_animation 系</summary><p>animation_fcurves, animation_keyframes, animation_timeline</p>
+</details>
+<details class="example"><summary>USERPREF_PT_experimental 系</summary><p>experimental_debugging, experimental_new_features, experimental_prototypes</p>
+</details>
+<details class="example"><summary>USERPREF_PT_studiolight 系</summary><p>studiolight_light_editor, studiolight_lights, studiolight_matcaps, studiolight_world</p>
+</details>
+<details class="example"><summary>USERPREF_PT_theme 系</summary><p>theme, theme_bone_color_sets, theme_clip_editor, theme_clip_editor_space, theme_clip_editor_space_list, theme_clip_editor_space_panelcolors, theme_collection_colors, theme_console, theme_console_space, theme_console_space_panelcolors, theme_dopesheet_editor, theme_dopesheet_editor_space, theme_dopesheet_editor_space_list, theme_dopesheet_editor_space_panelcolors, theme_file_browser, theme_file_browser_space, theme_file_browser_space_panelcolors, theme_graph_editor, theme_graph_editor_space, theme_graph_editor_space_list, theme_graph_editor_space_panelcolors, theme_image_editor, theme_image_editor_space, theme_image_editor_space_panelcolors, theme_info, theme_info_space, theme_info_space_panelcolors, theme_interface_gizmos, theme_interface_icons, theme_interface_shade_wcol_box, theme_interface_shade_wcol_list_item, theme_interface_shade_wcol_menu, theme_interface_shade_wcol_menu_back, theme_interface_shade_wcol_menu_item, theme_interface_shade_wcol_num, theme_interface_shade_wcol_numslider, theme_interface_shade_wcol_option, theme_interface_shade_wcol_pie_menu, theme_interface_shade_wcol_progress, theme_interface_shade_wcol_pulldown, theme_interface_shade_wcol_radio, theme_interface_shade_wcol_regular, theme_interface_shade_wcol_scroll, theme_interface_shade_wcol_tab, theme_interface_shade_wcol_text, theme_interface_shade_wcol_toggle, theme_interface_shade_wcol_tool, theme_interface_shade_wcol_toolbar_item, theme_interface_shade_wcol_tooltip, theme_interface_state, theme_interface_styles, theme_interface_transparent_checker, theme_interface_wcol_box, theme_interface_wcol_list_item, theme_interface_wcol_menu, theme_interface_wcol_menu_back, theme_interface_wcol_menu_item, theme_interface_wcol_num, theme_interface_wcol_numslider, theme_interface_wcol_option, theme_interface_wcol_pie_menu, theme_interface_wcol_progress, theme_interface_wcol_pulldown, theme_interface_wcol_radio, theme_interface_wcol_regular, theme_interface_wcol_scroll, theme_interface_wcol_tab, theme_interface_wcol_text, theme_interface_wcol_toggle, theme_interface_wcol_tool, theme_interface_wcol_toolbar_item, theme_interface_wcol_tooltip, theme_nla_editor, theme_nla_editor_space, theme_nla_editor_space_list, theme_nla_editor_space_panelcolors, theme_node_editor, theme_node_editor_space, theme_node_editor_space_list, theme_node_editor_space_panelcolors, theme_outliner, theme_outliner_space, theme_outliner_space_panelcolors, theme_preferences, theme_preferences_space, theme_preferences_space_panelcolors, theme_properties, theme_properties_space, theme_properties_space_panelcolors, theme_sequence_editor, theme_sequence_editor_space, theme_sequence_editor_space_panelcolors, theme_statusbar, theme_statusbar_space, theme_statusbar_space_panelcolors, theme_text_editor, theme_text_editor_space, theme_text_editor_space_panelcolors, theme_text_style, theme_topbar, theme_topbar_space, theme_topbar_space_panelcolors, theme_user_interface, theme_view_3d, theme_view_3d_space, theme_view_3d_space_gradients, theme_view_3d_space_panelcolors</p>
+</details>
+<details class="example"><summary>USERPREF_PT_viewport 系</summary><p>viewport_display, viewport_quality, viewport_selection, viewport_textures</p>
+</details>
+<details class="example"><summary>USERPREF_PT_navigation 系</summary><p>navigation_bar, navigation_fly_walk, navigation_fly_walk_gravity, navigation_fly_walk_navigation, navigation_orbit, navigation_zoom</p>
+</details>
+<details class="example"><summary>USERPREF_PT_edit 系</summary><p>edit_annotations, edit_cursor, edit_gpencil, edit_misc, edit_objects, edit_objects_duplicate_data, edit_objects_new, edit_weight_paint</p>
+</details>
+<details class="example"><summary>USERPREF_PT_system 系</summary><p>system_cycles_devices, system_memory, system_sound, system_video_sequencer</p>
+</details>
+<details class="example"><summary>USERPREF_PT_interface 系</summary><p>interface_display, interface_editors, interface_menus, interface_menus_mouse_over, interface_menus_pie, interface_statusbar, interface_temporary_windows, interface_text, interface_translation</p>
+</details>
+<hr />
+<h3 id="viewlayer_pt">VIEWLAYER_PT</h3>
+<hr />
+<details class="example"><summary>VIEWLAYER_PT_freestyle 系</summary><p>freestyle, freestyle_lineset, freestyle_linestyle</p>
+</details>
+<details class="example"><summary>VIEWLAYER_PT_eevee 系</summary><p>eevee_layer_passes, eevee_layer_passes_data, eevee_layer_passes_effects, eevee_layer_passes_light</p>
+</details>
+<hr />
+<h3 id="node_pt">NODE_PT</h3>
+<hr />
+<details class="example"><summary>NODE_PT_active 系</summary><p>active_node_color, active_node_generic, active_node_properties, active_tool</p>
+</details>
+<hr />
+<h3 id="node_mt">NODE_MT</h3>
+<hr />
+<details class="example"><summary>NODE_MT_category 系</summary><p>category_CMP_CONVERTOR, category_CMP_DISTORT, category_CMP_GROUP, category_CMP_INPUT, category_CMP_LAYOUT, category_CMP_MATTE, category_CMP_OP_COLOR, category_CMP_OP_FILTER, category_CMP_OP_VECTOR, category_CMP_OUTPUT, category_SH_NEW_CONVERTOR, category_SH_NEW_GROUP, category_SH_NEW_INPUT, category_SH_NEW_LAYOUT, category_SH_NEW_OP_COLOR, category_SH_NEW_OP_VECTOR, category_SH_NEW_OUTPUT, category_SH_NEW_SCRIPT, category_SH_NEW_SHADER, category_SH_NEW_TEXTURE, category_SIM_GROUP, category_SIM_LAYOUT, category_TEX_CONVERTOR, category_TEX_DISTORT, category_TEX_GROUP, category_TEX_INPUT, category_TEX_LAYOUT, category_TEX_OP_COLOR, category_TEX_OUTPUT, category_TEX_PATTERN, category_TEX_TEXTURE</p>
+</details>
+<details class="example"><summary>NODE_MT_node 系</summary><p>node, node_color_context_menu</p>
+</details>
+<hr />
+<h3 id="node_ot">NODE_OT</h3>
+<hr />
+<details class="example"><summary>NODE_OT_add 系</summary><p>add_and_link_node, add_node, add_search</p>
+</details>
+<hr />
+<h3 id="filebrowser_pt">FILEBROWSER_PT</h3>
+<hr />
+<details class="example"><summary>FILEBROWSER_PT_bookmarks 系</summary><p>bookmarks_favorites, bookmarks_recents, bookmarks_system, bookmarks_volumes</p>
+</details>
+<hr />
+<h3 id="sequencer_pt">SEQUENCER_PT</h3>
+<hr />
+<details class="example"><summary>SEQUENCER_PT_view 系</summary><p>view, view_safe_areas, view_safe_areas_center_cut</p>
+</details>
+<details class="example"><summary>SEQUENCER_PT_effect 系</summary><p>effect, effect_text_layout, effect_text_style</p>
+</details>
+<details class="example"><summary>SEQUENCER_PT_strip 系</summary><p>strip, strip_cache, strip_proxy</p>
+</details>
+<details class="example"><summary>SEQUENCER_PT_annotation 系</summary><p>annotation, annotation_onion</p>
+</details>
+<details class="example"><summary>SEQUENCER_PT_adjust 系</summary><p>adjust, adjust_color, adjust_comp, adjust_sound, adjust_transform, adjust_transform_crop, adjust_transform_offset, adjust_video</p>
+</details>
+<hr />
+<h3 id="sequencer_mt">SEQUENCER_MT</h3>
+<hr />
+<details class="example"><summary>SEQUENCER_MT_view 系</summary><p>view, view_cache</p>
+</details>
+<details class="example"><summary>SEQUENCER_MT_strip 系</summary><p>strip, strip_effect, strip_input, strip_lock_mute, strip_movie, strip_transform</p>
+</details>
+<details class="example"><summary>SEQUENCER_MT_add 系</summary><p>add, add_effect, add_empty, add_transitions</p>
+</details>
+<details class="example"><summary>SEQUENCER_MT_select 系</summary><p>select, select_channel, select_handle, select_linked</p>
+</details>
+<hr />
+<h3 id="sequencer_ot">SEQUENCER_OT</h3>
+<hr />
+<details class="example"><summary>SEQUENCER_OT_fades 系</summary><p>fades_add, fades_clear</p>
+</details>
+<hr />
+<h3 id="mesh_ot_select">MESH_OT_select</h3>
+<hr />
+<details class="example"><summary>MESH_OT_select 系</summary><p>select_next_item, select_prev_item</p>
+</details>
+<hr />
+<h3 id="image_pt">IMAGE_PT</h3>
+<hr />
+<details class="example"><summary>IMAGE_PT_view 系</summary><p>view_display, view_histogram, view_vectorscope, view_waveform</p>
+</details>
+<details class="example"><summary>IMAGE_PT_uv 系</summary><p>uv_cursor, uv_sculpt_brush_select, uv_sculpt_brush_settings, uv_sculpt_curve, uv_sculpt_options</p>
+</details>
+<details class="example"><summary>IMAGE_PT_overlay 系</summary><p>overlay, overlay_image, overlay_texture_paint, overlay_uv_edit, overlay_uv_edit_geometry</p>
+</details>
+<details class="example"><summary>IMAGE_PT_paint 系</summary><p>paint_clone, paint_color, paint_curve, paint_select, paint_settings, paint_settings_advanced, paint_stroke, paint_stroke_smooth_stroke, paint_swatches</p>
+</details>
+<details class="example"><summary>IMAGE_PT_udim 系</summary><p>udim_grid, udim_tiles</p>
+</details>
+<details class="example"><summary>IMAGE_PT_active 系</summary><p>active_mask_point, active_mask_spline, active_tool</p>
+</details>
+<details class="example"><summary>IMAGE_PT_mask 系</summary><p>mask, mask_layers</p>
+</details>
+<details class="example"><summary>IMAGE_PT_tools 系</summary><p>tools_active, tools_brush_display, tools_brush_texture, tools_imagepaint_symmetry, tools_mask_texture</p>
+</details>
+<hr />
+<h3 id="image_mt">IMAGE_MT</h3>
+<hr />
+<details class="example"><summary>IMAGE_MT_view 系</summary><p>view, view_zoom</p>
+</details>
+<details class="example"><summary>IMAGE_MT_uvs 系</summary><p>uvs, uvs_align, uvs_context_menu, uvs_merge, uvs_mirror, uvs_select_mode, uvs_showhide, uvs_snap, uvs_snap_pie, uvs_split, uvs_transform, uvs_unwrap</p>
+</details>
+<details class="example"><summary>IMAGE_MT_image 系</summary><p>image, image_invert</p>
+</details>
+<details class="example"><summary>IMAGE_MT_select 系</summary><p>select, select_linked</p>
+</details>
+<hr />
+<h3 id="image_ot">IMAGE_OT</h3>
+<hr />
+<details class="example"><summary>IMAGE_OT_project 系</summary><p>project_apply, project_edit</p>
+</details>
+<hr />
+<h3 id="outliner_mt">OUTLINER_MT</h3>
+<hr />
+<details class="example"><summary>OUTLINER_MT_collection 系</summary><p>collection, collection_new, collection_view_layer, collection_visibility</p>
+</details>
+<details class="example"><summary>OUTLINER_MT_context 系</summary><p>context_menu, context_menu_view</p>
+</details>
+<hr />
+<h3 id="text_mt">TEXT_MT</h3>
+<hr />
+<details class="example"><summary>TEXT_MT_view 系</summary><p>view, view_navigation</p>
+</details>
+<details class="example"><summary>TEXT_MT_templates 系</summary><p>templates, templates_osl, templates_py</p>
+</details>
+<details class="example"><summary>TEXT_MT_edit 系</summary><p>edit, edit_to3d</p>
+</details>
+<hr />
+<h3 id="graph_mt">GRAPH_MT</h3>
+<hr />
+<details class="example"><summary>GRAPH_MT_key 系</summary><p>key, key_snap, key_transform</p>
+</details>
+<details class="example"><summary>GRAPH_MT_channel 系</summary><p>channel, channel_context_menu</p>
+</details>
+<hr />
+<h3 id="render_pt">RENDER_PT</h3>
+<hr />
+<details class="example"><summary>RENDER_PT_simplify 系</summary><p>simplify, simplify_greasepencil, simplify_render, simplify_viewport</p>
+</details>
+<details class="example"><summary>RENDER_PT_color 系</summary><p>color_management, color_management_curves</p>
+</details>
+<details class="example"><summary>RENDER_PT_output 系</summary><p>output, output_views</p>
+</details>
+<details class="example"><summary>RENDER_PT_eevee 系</summary><p>eevee_ambient_occlusion, eevee_bloom, eevee_depth_of_field, eevee_film, eevee_hair, eevee_indirect_lighting, eevee_indirect_lighting_display, eevee_motion_blur, eevee_performance, eevee_sampling, eevee_screen_space_reflections, eevee_shadows, eevee_subsurface_scattering, eevee_volumetric, eevee_volumetric_lighting, eevee_volumetric_shadows</p>
+</details>
+<details class="example"><summary>RENDER_PT_stamp 系</summary><p>stamp, stamp_burn, stamp_note</p>
+</details>
+<details class="example"><summary>RENDER_PT_encoding 系</summary><p>encoding, encoding_audio, encoding_video</p>
+</details>
+<details class="example"><summary>RENDER_PT_opengl 系</summary><p>opengl_color, opengl_film, opengl_lighting, opengl_options, opengl_sampling</p>
+</details>
+<hr />
+<h3 id="material_pt">MATERIAL_PT</h3>
+<hr />
+<details class="example"><summary>MATERIAL_PT_gpencil 系</summary><p>gpencil_custom_props, gpencil_fillcolor, gpencil_material_presets, gpencil_options, gpencil_preview, gpencil_slots, gpencil_strokecolor, gpencil_surface</p>
+</details>
+<hr />
+<h3 id="nla_mt">NLA_MT</h3>
+<hr />
+<details class="example"><summary>NLA_MT_edit 系</summary><p>edit, edit_transform</p>
+</details>
+<hr />
+<h3 id="particle_pt">PARTICLE_PT</h3>
+<hr />
+<details class="example"><summary>PARTICLE_PT_force 系</summary><p>force_fields, force_fields_type1, force_fields_type1_falloff, force_fields_type2, force_fields_type2_falloff</p>
+</details>
+<details class="example"><summary>PARTICLE_PT_physics 系</summary><p>physics, physics_boids_battle, physics_boids_misc, physics_boids_movement, physics_deflection, physics_fluid_advanced, physics_fluid_interaction, physics_fluid_springs, physics_fluid_springs_advanced, physics_fluid_springs_viscoelastic, physics_forces, physics_integration, physics_relations</p>
+</details>
+<details class="example"><summary>PARTICLE_PT_hair 系</summary><p>hair_dynamics, hair_dynamics_collision, hair_dynamics_presets, hair_dynamics_structure, hair_dynamics_volume, hair_shape</p>
+</details>
+<details class="example"><summary>PARTICLE_PT_render 系</summary><p>render, render_collection, render_collection_use_count, render_extra, render_object, render_path, render_path_timing</p>
+</details>
+<details class="example"><summary>PARTICLE_PT_emission 系</summary><p>emission, emission_source</p>
+</details>
+<details class="example"><summary>PARTICLE_PT_children 系</summary><p>children, children_clumping, children_clumping_noise, children_kink, children_parting, children_roughness</p>
+</details>
+<details class="example"><summary>PARTICLE_PT_rotation 系</summary><p>rotation, rotation_angular_velocity</p>
+</details>
+<hr />
+<h3 id="clip_pt">CLIP_PT</h3>
+<hr />
+<details class="example"><summary>CLIP_PT_track 系</summary><p>track, track_color_presets, track_settings, track_settings_extras</p>
+</details>
+<details class="example"><summary>CLIP_PT_tracking 系</summary><p>tracking_camera, tracking_lens, tracking_settings, tracking_settings_extras, tracking_settings_presets</p>
+</details>
+<details class="example"><summary>CLIP_PT_marker 系</summary><p>marker, marker_display</p>
+</details>
+<details class="example"><summary>CLIP_PT_active 系</summary><p>active_mask_point, active_mask_spline</p>
+</details>
+<details class="example"><summary>CLIP_PT_mask 系</summary><p>mask, mask_display, mask_layers</p>
+</details>
+<details class="example"><summary>CLIP_PT_tools 系</summary><p>tools_cleanup, tools_clip, tools_geometry, tools_grease_pencil_draw, tools_marker, tools_mask_tools, tools_mask_transforms, tools_object, tools_orientation, tools_plane_tracking, tools_scenesetup, tools_solve, tools_tracking</p>
+</details>
+<hr />
+<h3 id="clip_mt">CLIP_MT</h3>
+<hr />
+<details class="example"><summary>CLIP_MT_view 系</summary><p>view, view_zoom</p>
+</details>
+<details class="example"><summary>CLIP_MT_track 系</summary><p>track, track_transform, track_visibility</p>
+</details>
+<details class="example"><summary>CLIP_MT_tracking 系</summary><p>tracking_context_menu, tracking_editor_menus, tracking_pie</p>
+</details>
+<details class="example"><summary>CLIP_MT_stabilize 系</summary><p>stabilize_2d_context_menu, stabilize_2d_rotation_context_menu</p>
+</details>
+<details class="example"><summary>CLIP_MT_reconstruction 系</summary><p>reconstruction, reconstruction_pie</p>
+</details>
+<details class="example"><summary>CLIP_MT_select 系</summary><p>select, select_grouped</p>
+</details>
+<hr />
+<h3 id="clip_ot">CLIP_OT</h3>
+<hr />
+<details class="example"><summary>CLIP_OT_track 系</summary><p>track_color_preset_add, track_settings_as_default, track_settings_to_track, track_to_empty</p>
+</details>
+<details class="example"><summary>CLIP_OT_set 系</summary><p>set_active_clip, set_viewport_background</p>
+</details>
+<hr />
+<h3 id="dopesheet_pt">DOPESHEET_PT</h3>
+<hr />
+<details class="example"><summary>DOPESHEET_PT_gpencil 系</summary><p>gpencil_layer_adjustments, gpencil_layer_display, gpencil_layer_masks, gpencil_layer_relations, gpencil_mode</p>
+</details>
+<hr />
+<h3 id="dopesheet_mt">DOPESHEET_MT</h3>
+<hr />
+<details class="example"><summary>DOPESHEET_MT_key 系</summary><p>key, key_transform</p>
+</details>
+<details class="example"><summary>DOPESHEET_MT_channel 系</summary><p>channel, channel_context_menu</p>
+</details>
+<details class="example"><summary>DOPESHEET_MT_gpencil 系</summary><p>gpencil_channel, gpencil_frame</p>
+</details>
+<hr />
+<h3 id="texture_pt">TEXTURE_PT</h3>
+<hr />
+<details class="example"><summary>TEXTURE_PT_voronoi 系</summary><p>voronoi, voronoi_feature_weights</p>
+</details>
+<details class="example"><summary>TEXTURE_PT_colors 系</summary><p>colors, colors_ramp</p>
+</details>
+<details class="example"><summary>TEXTURE_PT_image 系</summary><p>image, image_alpha, image_mapping, image_mapping_crop, image_sampling, image_settings</p>
+</details>
+<hr />
+<h3 id="object_pt">OBJECT_PT</h3>
+<hr />
+<details class="example"><summary>OBJECT_PT_instancing 系</summary><p>instancing, instancing_size</p>
+</details>
+<details class="example"><summary>OBJECT_PT_motion 系</summary><p>motion_paths, motion_paths_display</p>
+</details>
+<details class="example"><summary>OBJECT_PT_bArmatureConstraint 系</summary><p>bArmatureConstraint, bArmatureConstraint_bones</p>
+</details>
+<details class="example"><summary>OBJECT_PT_bTransformConstraint 系</summary><p>bTransformConstraint, bTransformConstraint_destination, bTransformConstraint_source</p>
+</details>
+<details class="example"><summary>OBJECT_PT_bActionConstraint 系</summary><p>bActionConstraint, bActionConstraint_action, bActionConstraint_target</p>
+</details>
+<hr />
+<h3 id="object_ot">OBJECT_OT</h3>
+<hr />
+<details class="example"><summary>OBJECT_OT_load 系</summary><p>load_background_image, load_reference_image</p>
+</details>
+<details class="example"><summary>OBJECT_OT_quick 系</summary><p>quick_explode, quick_fur, quick_liquid, quick_smoke</p>
+</details>
+<details class="example"><summary>OBJECT_OT_select 系</summary><p>select_camera, select_hierarchy, select_pattern</p>
+</details>
+<hr />
+<h3 id="physics_pt">PHYSICS_PT</h3>
+<hr />
+<details class="example"><summary>PHYSICS_PT_cloth 系</summary><p>cloth, cloth_cache, cloth_collision, cloth_damping, cloth_field_weights, cloth_internal_springs, cloth_object_collision, cloth_physical_properties, cloth_pressure, cloth_property_weights, cloth_self_collision, cloth_shape, cloth_stiffness</p>
+</details>
+<details class="example"><summary>PHYSICS_PT_dynamic 系</summary><p>dynamic_paint, dynamic_paint_settings</p>
+</details>
+<details class="example"><summary>PHYSICS_PT_viewport 系</summary><p>viewport_display, viewport_display_advanced, viewport_display_color, viewport_display_debug, viewport_display_slicing</p>
+</details>
+<details class="example"><summary>PHYSICS_PT_softbody 系</summary><p>softbody, softbody_cache, softbody_collision, softbody_edge, softbody_edge_aerodynamics, softbody_edge_stiffness, softbody_field_weights, softbody_goal, softbody_goal_settings, softbody_goal_strengths, softbody_object, softbody_simulation, softbody_solver, softbody_solver_diagnostics, softbody_solver_helpers</p>
+</details>
+<details class="example"><summary>PHYSICS_PT_smoke 系</summary><p>smoke, smoke_dissolve</p>
+</details>
+<details class="example"><summary>PHYSICS_PT_dp 系</summary><p>dp_brush_source, dp_brush_source_color_ramp, dp_brush_velocity, dp_brush_velocity_color_ramp, dp_brush_velocity_smudge, dp_brush_wave, dp_cache, dp_canvas_initial_color, dp_canvas_output, dp_canvas_output_paintmaps, dp_canvas_output_wetmaps, dp_effects, dp_effects_drip, dp_effects_drip_weights, dp_effects_shrink, dp_effects_spread, dp_surface_canvas, dp_surface_canvas_paint_dissolve, dp_surface_canvas_paint_dry</p>
+</details>
+<details class="example"><summary>PHYSICS_PT_flow 系</summary><p>flow_initial_velocity, flow_source, flow_texture</p>
+</details>
+<details class="example"><summary>PHYSICS_PT_rigid 系</summary><p>rigid_body, rigid_body_collisions, rigid_body_collisions_collections, rigid_body_collisions_sensitivity, rigid_body_collisions_surface, rigid_body_constraint, rigid_body_constraint_limits, rigid_body_constraint_limits_angular, rigid_body_constraint_limits_linear, rigid_body_constraint_motor, rigid_body_constraint_motor_angular, rigid_body_constraint_motor_linear, rigid_body_constraint_objects, rigid_body_constraint_override_iterations, rigid_body_constraint_settings, rigid_body_constraint_springs, rigid_body_constraint_springs_angular, rigid_body_constraint_springs_linear, rigid_body_dynamics, rigid_body_dynamics_deactivation, rigid_body_settings</p>
+</details>
+<details class="example"><summary>PHYSICS_PT_field 系</summary><p>field, field_falloff, field_falloff_angular, field_falloff_radial, field_settings, field_settings_kink, field_settings_texture_select, field_weights</p>
+</details>
+<details class="example"><summary>PHYSICS_PT_collision 系</summary><p>collision, collision_particle, collision_softbody</p>
+</details>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="フッター">
+      
+        <a href=".." class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                前
+              </span>
+              メニュー追加先の候補の一覧 (2.91)
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "toc.integrate"], "translations": {"clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\u3000\u3001\u3002\uff0c\uff0e]+", "search.placeholder": "\u691c\u7d22", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044"}, "search": "../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.ca5457b8.min.js"></script>
+      
+    
+  </body>
+</html>
