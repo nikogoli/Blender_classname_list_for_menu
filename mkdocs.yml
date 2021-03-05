@@ -1,0 +1,27 @@
+site_name: メニュー追加先の候補の一覧 (2.91)
+theme:
+  name: material
+  language: ja
+  font:
+    text: Kosugi Maru
+    code: Ubuntu Mono
+  features:
+    - navigation.tabs
+    - toc.integrate
+
+markdown_extensions:
+  - footnotes
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      noclasses: True
+      pygments_style: tango
+      linenums: False
+  - pymdownx.superfences
+
+extra_css:
+  - "stylesheets/styles.css"
